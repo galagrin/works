@@ -1,0 +1,261 @@
+@font-face {
+    src: url(./ofont.ru_Museo\ Sans\ Cyrl\ 500.ttf);
+    font-family: "Museo Sans Cyrl";
+}
+
+#logo {
+    width: 144px;
+    height: 103px;
+}
+
+nav ul {
+    display: flex;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #272727;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav li:active {
+    color: rgb(48, 194, 220);
+    cursor: pointer;
+}
+
+.phone {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+div {
+    width: 158px;
+    height: 19px;
+}
+
+#button1 {
+    width: 187px;
+    height: 52px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: 2px solid #29abe2;
+    border-radius: 27px;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    color: #29abe2;
+    background-color: white;
+}
+
+#button1:hover {
+    background-color: rgb(208, 182, 164);
+}
+
+#button1:active {
+    color: rgb(249, 0, 54);
+}
+#button2 {
+    width: 261px;
+    height: 62px;
+    border-radius: 31px;
+    background: linear-gradient(0deg, #29abe2 0%, #59c6f4 100%);
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+#button2:hover {
+    color: #060606;
+}
+
+.firstsection {
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets_header/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstsection h1 {
+    width: 622px;
+    height: 231px;
+    font-family: "Playfair Display", Times, serif;
+    font-size: 60px;
+    line-height: 119%;
+    color: #353535;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.firstsection p {
+    width: 546px;
+    height: 52px;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #353535;
+}
+
+.secondsection {
+    width: 1600px;
+    height: 480px;
+    background-color: #29abe2;
+}
+.secondsection h2 {
+    width: 364px;
+    height: 53px;
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    color: #fff;
+}
+.secondsection p {
+    width: 481px;
+    height: 63px;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 219px;
+    height: 138px;
+    margin-right: 50px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+.card-desc {
+    text-align: center;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+}
+
+.thirdsection {
+    width: 1600px;
+    height: 609px;
+    background-image: url(../assets_header/sofa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdsection h1 {
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    color: #353535;
+}
+
+.thirdsection p {
+    width: 546px;
+    height: 52px;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #353535;
+}
+
+.thirdsection ul li {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    list-style-type: none;
+}
+.forthsection {
+    width: 1600px;
+    height: 565px;
+    background: #29abe2;
+}
+.forthsection h2 {
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    color: #fff;
+}
+.forthsection p {
+    width: 481px;
+    height: 63px;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+.map {
+    width: 800px;
+    height: 565px;
+    float: right;
+}
+.feedback {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+
+input::placeholder {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    background: rgba(118, 214, 255, 0.97);
+    color: #fff;
+    text-align: center;
+}
+
+.button3 {
+    width: 241px;
+    height: 62px;
+    border-radius: 31px;
+    background: #fff;
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+footer {
+    width: 1600px;
+    height: 290px;
+    background: #0f4861;
+}
+footer nav ul li {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #79a0b0;
+}
+footer div {
+    font-family: "Museo Sans Cyrl", Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #79a0b0;
+}

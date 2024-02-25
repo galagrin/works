@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/429069/animal-bird-night.svg" type="image/svg+xml">
+    <title>Опросник для владельцев магических животных</title>
+</head>
+<body>
+    <h1>Опросник для владельцев магических животных</h1>
+<img src="https://masterpiecer-images.s3.yandex.net/5c43304b6eab11eea633d659965eed18:upscaled" alt="Картинка с единорогом" width="200">
+<form method="post">
+<div>
+    <label for="petname">Кличка питомца</label>
+    <input type="text" id="petname" name="petname">
+</div>
+
+<div>
+    <label for="petowner">Имя владельца</label>
+    <input type="text" id="petowner" name="petowner">
+</div>
+<div>
+    <label for="ownertel">Телефон владельца</label>
+    <input type="tel" placeholder="+7 (xхx) xxx-xx-xx" id="ownertel" name="ownertel">
+</div>
+<div>
+    <label for="breed">Порода питомца:</label>
+    <select name="порода питомца" id="breed">
+        <option value="1">Единорог</option>
+        <option value="2">Сова</option>
+        <option value="3">Мышь</option>
+        <option value="4">Дракон</option>
+        <option value="5">Змея</option>
+        <option value="6">Феникс</option>
+        <option value="7">Шишуга</option>
+        <option value="8">Кот</option>
+        <option value="9">Собака</option>
+        <option value="10">Рыбка</option>
+    </select>   
+</div>
+<div>
+    <p>Пол питомца:</p>
+    <br><input type="radio" id="gender-male" value="male" name="gender"> 
+    <label for="gender-male">Самец</label>
+    <br><input type="radio" id="gender-female" value="female" name="gender">
+    <label for="gender-female">Самка</label>
+</div>
+<div>
+<p>Чем питается:</p>
+<input type="checkbox" name="food" checked="checked"> Сухой комментарии
+<br><input type="checkbox" name="food"> Влажный корм
+<br><input type="checkbox" name="food"> Натуральный корм
+</div>
+<div>
+    <label for="comments">Комментарий владельца:</label>
+    <br><textarea name="комментарий владельца" id="comments" cols="30" rows="10" placeholder="введите свои комментарии"></textarea>
+</div>
+<div>
+    <label for="photo">Прикрепите фото питомца</label>
+    <br><input type="file" id="photo" name="photo">
+</div>
+<button>Сохранить</button>
+</form>
+</body>
+</html>
